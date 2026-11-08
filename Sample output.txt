@@ -1,0 +1,106 @@
+Student Dataset:
+   Student  Study_Hours  Attendance  Previous_Score  Final_Score
+0        A          2.0        60.0              45           40
+1        B          3.0        65.0              50           45
+2        C          4.0        70.0              55           50
+3        D          5.0        75.0              60           55
+4        E          6.0        80.0              65           60
+5        F          7.0        85.0              70           65
+6        G          8.0        90.0              75           70
+7        H          9.0        95.0              80           75
+8        I          1.0        50.0              40           35
+9        J          2.0        55.0              45           40
+10       K          3.0        65.0              50           45
+11       L          4.0        70.0              55           50
+12       M          5.0        75.0              60           55
+13       N          6.0        80.0              65           60
+14       O          7.0        85.0              70           65
+15       P          8.0        90.0              75           70
+16       Q          9.0        95.0              80           80
+17       R         10.0        98.0              85           90
+18       S          4.0         NaN              58           52
+19       T          NaN        88.0              68           72
+
+Dataset Shape:
+(20, 5)
+
+Dataset Information:
+<class 'pandas.DataFrame'>
+RangeIndex: 20 entries, 0 to 19
+Data columns (total 5 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   Student         20 non-null     str    
+ 1   Study_Hours     19 non-null     float64
+ 2   Attendance      19 non-null     float64
+ 3   Previous_Score  20 non-null     int64  
+ 4   Final_Score     20 non-null     int64  
+dtypes: float64(2), int64(2), str(1)
+memory usage: 932.0 bytes
+
+Statistical Summary:
+       Study_Hours  Attendance  Previous_Score  Final_Score
+count    19.000000   19.000000       20.000000    20.000000
+mean      5.421053   77.421053       62.550000    58.700000
+std       2.652374   14.115853       12.902366    14.643482
+min       1.000000   50.000000       40.000000    35.000000
+25%       3.500000   67.500000       53.750000    48.750000
+50%       5.000000   80.000000       62.500000    57.500000
+75%       7.500000   89.000000       71.250000    70.000000
+max      10.000000   98.000000       85.000000    90.000000
+
+Missing Values:
+Student           0
+Study_Hours       1
+Attendance        1
+Previous_Score    0
+Final_Score       0
+dtype: int64
+
+Duplicate Records:
+0
+
+Cleaned Student Dataset:
+   Student  Study_Hours  Attendance  Previous_Score  Final_Score
+0        A     2.000000   60.000000              45           40
+1        B     3.000000   65.000000              50           45
+2        C     4.000000   70.000000              55           50
+3        D     5.000000   75.000000              60           55
+4        E     6.000000   80.000000              65           60
+5        F     7.000000   85.000000              70           65
+6        G     8.000000   90.000000              75           70
+7        H     9.000000   95.000000              80           75
+8        I     1.000000   50.000000              40           35
+9        J     2.000000   55.000000              45           40
+10       K     3.000000   65.000000              50           45
+11       L     4.000000   70.000000              55           50
+12       M     5.000000   75.000000              60           55
+13       N     6.000000   80.000000              65           60
+14       O     7.000000   85.000000              70           65
+15       P     8.000000   90.000000              75           70
+16       Q     9.000000   95.000000              80           80
+17       R    10.000000   98.000000              85           90
+18       S     4.000000   77.421053              58           52
+19       T     5.421053   88.000000              68           72
+
+Average Study Hours:
+5.42
+
+Average Final Score:
+58.7
+
+Highest Final Score:
+90
+
+Lowest Final Score:
+35
+
+Important Observations:
+1. Average study hours: 5.42
+2. Average final score: 58.7
+3. Highest score obtained: 90
+4. Lowest score obtained: 35
+5. Relationship between study hours and final scores: 0.97
+
+Cleaned dataset saved successfully.
+Exploratory Data Analysis completed successfully!
